@@ -142,7 +142,7 @@ Safe_Exploration_RL/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/safe-exploration-sarsa-qlearning.git
+git clone https://github.com/shwetambari-mali/safe-exploration-sarsa-qlearning.git
 
 cd safe-exploration-sarsa-qlearning
 ```
