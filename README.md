@@ -51,12 +51,12 @@ SARSA is an on-policy temporal-difference learning algorithm.
 
 Its update rule is:
 
-\[
-Q(S_t,A_t) \leftarrow Q(S_t,A_t) +
+
+$$Q(S_t,A_t) \leftarrow Q(S_t,A_t) +
 \alpha \left[
 R_{t+1}+\gamma Q(S_{t+1},A_{t+1})-Q(S_t,A_t)
-\right]
-\]
+\right]$$
+
 
 It uses the next action actually selected by the behavior policy.
 
@@ -66,12 +66,12 @@ Q-learning is an off-policy temporal-difference learning algorithm.
 
 Its update rule is:
 
-\[
+$$
 Q(S_t,A_t) \leftarrow Q(S_t,A_t) +
 \alpha \left[
 R_{t+1}+\gamma \max_a Q(S_{t+1},a)-Q(S_t,A_t)
 \right]
-\]
+$$
 
 It uses the maximum estimated action value at the next state, regardless of which action the behavior policy selects.
 
